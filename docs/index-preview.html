@@ -410,8 +410,8 @@
   <ul>
   <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
   <li><a href="#introduction" id="toc-introduction" class="nav-link" data-scroll-target="#introduction">Introduction</a></li>
-  <li><a href="#harvesting-from-historical-data-collection-efforts-a-more-friendly-format" id="toc-harvesting-from-historical-data-collection-efforts-a-more-friendly-format" class="nav-link" data-scroll-target="#harvesting-from-historical-data-collection-efforts-a-more-friendly-format">Harvesting from Historical Data Collection Efforts: A More Friendly Format</a></li>
-  <li><a href="#returning-target-variables-to-the-data" id="toc-returning-target-variables-to-the-data" class="nav-link" data-scroll-target="#returning-target-variables-to-the-data">Returning target variables to the data</a></li>
+  <li><a href="#harvesting-from-historical-data-collection-effort-a-more-friendly-format" id="toc-harvesting-from-historical-data-collection-effort-a-more-friendly-format" class="nav-link" data-scroll-target="#harvesting-from-historical-data-collection-effort-a-more-friendly-format">Harvesting from Historical Data Collection Effort: A More Friendly Format</a></li>
+  <li><a href="#return-target-variables" id="toc-return-target-variables" class="nav-link" data-scroll-target="#return-target-variables">Return target variables</a></li>
   <li><a href="#scale1-willingness-to-tolerate-nonconformist" id="toc-scale1-willingness-to-tolerate-nonconformist" class="nav-link" data-scroll-target="#scale1-willingness-to-tolerate-nonconformist">Scale1: Willingness to Tolerate Nonconformist</a></li>
   <li><a href="#scale2-scale-of-the-perception-on-the-internal-communist-danger" id="toc-scale2-scale-of-the-perception-on-the-internal-communist-danger" class="nav-link" data-scroll-target="#scale2-scale-of-the-perception-on-the-internal-communist-danger">Scale2: Scale of the Perception on the Internal Communist Danger</a>
   <ul class="collapse">
@@ -489,8 +489,8 @@ The following object is masked from 'package:purrr':
 <span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>data_dir <span class="ot">&lt;-</span> <span class="fu">file.path</span>(project_dir, <span class="st">"data"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </div></div>
 </section>
-<section id="harvesting-from-historical-data-collection-efforts-a-more-friendly-format" class="level2">
-<h2 class="anchored" data-anchor-id="harvesting-from-historical-data-collection-efforts-a-more-friendly-format">Harvesting from Historical Data Collection Efforts: A More Friendly Format</h2>
+<section id="harvesting-from-historical-data-collection-effort-a-more-friendly-format" class="level2">
+<h2 class="anchored" data-anchor-id="harvesting-from-historical-data-collection-effort-a-more-friendly-format">Harvesting from Historical Data Collection Effort: A More Friendly Format</h2>
 <p>Complying ICPSR’s redistribution policy, the converted data files are not provided here. Instead, the author provides STATA .do and .dct files, which were constructed based on the reading of the codebook. Please down the the dataset in ASCII format from ICPSR and should be able to apply to decode the .txt files from both samples.<span class="citation" data-cites="stoufferCommunismConformityCivil1992">(<a href="#ref-stoufferCommunismConformityCivil1992" role="doc-biblioref">Samuel A. Stouffer 1992</a>)</span></p>
 <pre><code>├── read-ascii-files
 │&nbsp;&nbsp; ├── gp-decode.do
@@ -498,11 +498,11 @@ The following object is masked from 'package:purrr':
 │&nbsp;&nbsp; ├── sample1.dct
 │&nbsp;&nbsp; └── sample2.dct</code></pre>
 </section>
-<section id="returning-target-variables-to-the-data" class="level2">
-<h2 class="anchored" data-anchor-id="returning-target-variables-to-the-data">Returning target variables to the data</h2>
+<section id="return-target-variables" class="level2">
+<h2 class="anchored" data-anchor-id="return-target-variables">Return target variables</h2>
 <p>The tolerance that Stouffer argued upon.<span class="citation" data-cites="stouffer1955communism">(<a href="#ref-stouffer1955communism" role="doc-biblioref">Samuel Andrew Stouffer 1955, 262–69</a>)</span></p>
-<section id="preparing-the-code_df-data-frame" class="level4">
-<h4 class="anchored" data-anchor-id="preparing-the-code_df-data-frame">Preparing the <code>code_df</code> data frame</h4>
+<section id="prepare-the-code_df-data-frame" class="level4">
+<h4 class="anchored" data-anchor-id="prepare-the-code_df-data-frame">Prepare the <code>code_df</code> data frame</h4>
 <ol type="1">
 <li>Cleaning column names and binding the two samples</li>
 </ol>

@@ -40,7 +40,7 @@ library(caret)
 project_dir <- Sys.getenv("QUARTO_PROJECT_DIR")
 data_dir <- file.path(project_dir, "data")
 ```
-## Harvesting from Historical Data Collection Efforts: A More Friendly Format
+## Harvesting from Historical Data Collection Effort: A More Friendly Format
 
 Complying ICPSR’s redistribution policy, the converted data files are not provided here. Instead, the author provides STATA .do and .dct files, which were constructed based on the reading of the codebook. Please down the the dataset in ASCII format from ICPSR and should be able to apply to decode the .txt files from both samples.[@stoufferCommunismConformityCivil1992]
 
@@ -52,11 +52,11 @@ Complying ICPSR’s redistribution policy, the converted data files are not prov
 │   └── sample2.dct
 ```
 
-## Returning target variables to the data
+## Return target variables
 
 The tolerance that Stouffer argued upon.[@stouffer1955communism, pp.262-269]
 
-#### Preparing the `code_df` data frame
+#### Prepare the `code_df` data frame
 
 1. Cleaning column names and binding the two samples
 ```{r}
